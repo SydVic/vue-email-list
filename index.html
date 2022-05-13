@@ -18,7 +18,11 @@
 <body>
 
     <div id="root">
-
+        <ul class="mailList">
+            <li v-for="item in emailArray">
+                {{item}}
+            </li>
+        </ul>
     </div>
 
     <script src="js/script.js"></script>
