@@ -18,9 +18,9 @@
 <body>
 
     <div id="root">
-        <ul class="mailList">
-            <li v-for="item in emailArray">
-                {{item}}
+        <ul v-if="emailsArray.length === 10" class="mailList">
+            <li v-for="item in emailsArray">
+                {{ item }}
             </li>
         </ul>
     </div>
